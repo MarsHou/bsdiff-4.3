@@ -117,3 +117,24 @@ make: *** [bspatch] Error 1
 ```
 
 6,OK , `make` .auto create file `bsdiff` and `bspatch`.
+
+7, build `patchfile`.
+
+```
+./bsdiff old.apk new.apk old-to-new.patch
+```
+
+8, build `newFile`
+
+```
+./bsdiff old.apk new1.apk old-to-new.patch
+```
+
+9, check `new1.apk`
+
+```
+md5 new.apk
+md5 new1.apk
+```
+
+10,done.
