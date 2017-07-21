@@ -127,7 +127,7 @@ make: *** [bspatch] Error 1
 8, build `newFile`
 
 ```
-./bsdiff old.apk new1.apk old-to-new.patch
+./bspatch old.apk new1.apk old-to-new.patch
 ```
 
 9, check `new1.apk`
